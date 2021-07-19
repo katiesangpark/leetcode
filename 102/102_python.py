@@ -17,6 +17,7 @@ class Solution:
             level_nodes = []
             
             for _ in range(level_length):
+                print(queue)
                 node = queue.popleft()
                 level_nodes.append(node.val)
                 
